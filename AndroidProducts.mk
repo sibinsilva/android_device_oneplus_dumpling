@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_dumpling.mk
+    $(LOCAL_DIR)/aosp_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_dumpling-user \
-    arrow_dumpling-userdebug \
-    arrow_dumpling-eng
+    aosp_dumpling-user \
+    aosp_dumpling-userdebug \
+    aosp_dumpling-eng
