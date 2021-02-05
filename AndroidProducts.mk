@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pex_dumpling.mk
+    $(LOCAL_DIR)/aosp_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    pex_dumpling-user \
-    pex_dumpling-userdebug \
-    pex_dumpling-eng
+    aosp_dumpling-user \
+    aosp_dumpling-userdebug \
+    aosp_dumpling-eng
