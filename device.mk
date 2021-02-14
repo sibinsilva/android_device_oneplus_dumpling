@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     
 #Gapps
 USE_GAPPS := true
+TARGET_INCLUDE_AOSP_REPLACEMENTS :=true
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
