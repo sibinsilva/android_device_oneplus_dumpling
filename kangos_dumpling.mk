@@ -56,5 +56,5 @@ TARGET_VENDOR := oneplus
 KANGOS_BUILDTYPE := OFFICIAL
 
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.kangos.maintainer=Sibin Silvester \
-  ro.kangos.cpu=SD 835 
+  ro.kangos.maintainer=Sibin-Silvester \
+  ro.kangos.cpu=SD835 
