@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_dumpling.mk
+    $(LOCAL_DIR)/ssos_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_dumpling-user \
-    aosp_dumpling-userdebug \
-    aosp_dumpling-eng
+    ssos_dumpling-user \
+    ssos_dumpling-userdebug \
+    ssos_dumpling-eng
