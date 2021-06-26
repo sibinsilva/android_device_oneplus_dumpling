@@ -47,3 +47,19 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+#Soong
+   PRODUCT_BOARD_PLATFORM := msm8998
+   PRODUCT_USES_QCOM_HARDWARE := true
+
+#GAPPS
+   WITH_GAPPS=true
+
+#Blur
+    TARGET_USES_BLUR := true
+
+#FaceUnlock
+    TARGET_FACE_UNLOCK_SUPPORTED := true
+
+#OPSTUFF
+$(call inherit-product, vendor/opstuff/config.mk)

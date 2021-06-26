@@ -27,9 +27,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-PRODUCT_NAME := dot_dumpling
+PRODUCT_NAME := spark_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
